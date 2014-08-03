@@ -8,5 +8,5 @@ hist(dt$Global_active_power, col="red", main = "Global Active Power",
      xlab = "Global Active Power (kilowatts)")
 title("Global Active Power")
 setwd("../..")
-dev.copy(png, file="plot1.png")
+dev.copy(png, file="plot1.png" , h=480, w = 480)
 dev.off()
