@@ -29,7 +29,7 @@ title("")
 setwd("../..")
 
 #copy the data to PNG file format with resolution settings of 480x480
-##dev.copy(png, file="plot2.png" , h=480, w = 480)
+dev.copy(png, file="plot2.png" , h=480, w = 480)
 
 #save the file
 dev.off()
