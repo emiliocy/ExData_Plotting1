@@ -16,7 +16,7 @@ head(dt,10)
 
 #draw histogram
 hist(dt$Global_active_power, col="red", main = "Global Active Power", 
-     ylab = "Global Active Power (kilowatts)")
+     xlab = "Global Active Power (kilowatts)")
 
 #set the historgram title
 title("Global Active Power")
